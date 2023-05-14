@@ -1,0 +1,253 @@
+
+.nav_bar{
+    border-bottom: 1px solid #3f3f3f54;
+    background: #f1f4ed;
+}
+.navbar-expand-lg .navbar-nav {
+    text-transform: capitalize;
+}
+.btn-login{
+    color: #fff;
+    background: #396C03;
+    font-size: 20px;
+    padding: 5px 45px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.btn-login:hover{
+    background-color: transparent;
+    border-bottom: 1px solid #396C03;
+    border-top: 1px solid #396C03;
+    border-radius: 0;    
+    color: #396C03;
+    transition:  .4s all ease-in-out;
+    
+}
+.btn-cart{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    background: #396c03;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+}
+.btn-cart:hover::before{
+    height: 30px;
+    width: 30px;
+}
+.btn-cart::before{
+    position: absolute;
+    content: "2";
+    background: #FF8B00;
+    height: 22px;
+    width: 22px;
+    border-radius: 20px;
+    top: -26%;
+    right: -18%;
+    transform: translate(18%, 26%);
+    transition: .4s all ease-in-out;
+}
+.nav-link {
+
+color: #3F3F3F;
+
+font-family: Poppins;
+
+font-size: 18px;
+
+font-weight: 500;
+
+line-height: 36px;
+
+letter-spacing: 0em;
+
+text-align: left;
+}
+/* bannar section start here  */
+.bannar{
+    /* background-color: #6B9142;
+    background-color: #fff; */
+    height: 90vh;
+    background-image: url(../images/bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannar h1{
+
+font-size: 65px;
+
+font-family: 'Merienda', cursive;
+
+font-weight: 700;
+
+color: #396C03;
+}
+.bannar p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #676767;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bannar input{
+
+width: 750px;
+
+height: 58px;
+
+background: #FFFFFF;
+
+border-radius: 40px;
+
+padding: 10px 50px;
+}
+.bannar input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #C7C7C7;
+
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.btn_search{
+
+height: 58px;
+
+border-radius: 40px;
+
+padding: 10px 30px;
+
+position: absolute;
+
+right: 0px;
+
+background: #396c03;
+
+color: #fff;
+
+font-family: 'Poppins';
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 18px;
+
+border: none;
+
+transition: .4s all ease-in-out;
+}
+.btn_search i{
+    
+padding: 10px;
+}
+.btn_search:hover{
+
+background: #ff8b00;
+}
+.m_form{
+    position: relative;
+}
+.m_form span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #ff8b00;
+    border-radius: 20px;
+    top: 50%;
+    left: 1%;
+    transform: translate(-1%, -50%);
+}
+.b_pic{
+    position: relative;
+}
+.sm_plate{
+    position: absolute;
+    top: -62px;
+    left: -33px;
+}
+.b_plate{
+    position: absolute;
+    right: 0px;
+    top: -47px;
+}
+
+
+
+/* ======================= */
+.explore{
+    background-color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-side{padding-top: 132px;}
+.l-side h1{
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #396C03;
+}
+.l-side p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #676767;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-explore{
+    width: 231px;
+    height: 67px;
+    border: none;
+    background: #396C03;
+    border-radius: 224.4px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: .4s all ease-in-out;
+}
+.btn-explore:hover{
+    border: 1px solid #396C03;
+    background-color: transparent !important;
+    color: #396C03;
+}
+.btn-explore i{
+    margin-left: 10px;
+}
+.r_side{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_one{
+
+position: absolute;
+
+right: 0px;
+
+width: 100%;
+}
+.img_two{
+    
+POSITION: absolute;
+    
+right: 0%;
+}
