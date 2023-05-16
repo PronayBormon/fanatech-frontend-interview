@@ -38,6 +38,7 @@
 .btn-cart:hover::before{
     height: 30px;
     width: 30px;
+    font-size: 19px;
 }
 .btn-cart::before{
     position: absolute;
@@ -49,6 +50,7 @@
     top: -26%;
     right: -18%;
     transform: translate(18%, 26%);
+    font-size: 14px;
     transition: .4s all ease-in-out;
 }
 .nav-link {
